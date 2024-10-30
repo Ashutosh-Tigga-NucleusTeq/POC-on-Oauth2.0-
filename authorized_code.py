@@ -18,9 +18,9 @@ app.add_middleware(
 )
 
 # OAuth2 settings
-AUTH0_DOMAIN = "dev-rseqmkudkz5c8lz0.us.auth0.com"
-CLIENT_ID = "zXygKDhMnQbEsg3vPodPHJ8oeYIF8eo9"
-CLIENT_SECRET = "pIHI8FgCYMNt7HOLaOcrufJQhIEUfA54NQhNEE739AoK7RZRQhEw9cjrfdKRIogq"
+AUTH0_DOMAIN = "auth0_domain.com"
+CLIENT_ID = "43j439ufndjnfdn"
+CLIENT_SECRET = "8483nfdnjn2u2"
 REDIRECT_URI = "http://localhost:5000/callback/"
 
 oauth2_scheme = OAuth2AuthorizationCodeBearer(
