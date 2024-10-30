@@ -19,8 +19,8 @@ app.add_middleware(
 )
 
 # OAuth2 settings for Auth0 (replace these with your own Auth0 settings)
-AUTH0_DOMAIN = "dev-rseqmkudkz5c8lz0.us.auth0.com"
-API_AUDIENCE = "urn:dev-rseqmkudkz5c8lz0:myapi"
+AUTH0_DOMAIN = "auth_domain.com"
+API_AUDIENCE = "urn:api_audience"
 ALGORITHMS = ["RS256"]
 
 # URL to fetch JWKS (JSON Web Key Set) from Auth0
